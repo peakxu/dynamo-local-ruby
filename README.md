@@ -22,15 +22,15 @@ Or install it yourself as:
 
 In your application code, initialize Dynamo clients with
 
-    Aws::DynamoDB::Client.new(endpoint: DynamoDBLocal::ENDPOINT)
+    Aws::DynamoDB::Client.new(endpoint: DynamoLocalRuby::DynamoDBLocal::ENDPOINT)
 
 Before the test suite starts
 
-    DynamoDBLocal.up
+    DynamoLocalRuby::DynamoDBLocal.up
 
 When cleaning up test suite
 
-    DynamoDBLocal.down
+    DynamoLocalRuby::DynamoDBLocal.down
 
 ## Contributing
 
