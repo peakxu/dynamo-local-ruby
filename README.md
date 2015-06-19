@@ -24,11 +24,11 @@ In your application code, initialize Dynamo clients with
 
     Aws::DynamoDB::Client.new(endpoint: DynamoLocalRuby::DynamoDBLocal::ENDPOINT)
 
-Before the test suite starts
+Before the test suite starts (for instance in RSpec's `config.before(:suite)`)
 
     DynamoLocalRuby::DynamoDBLocal.up
 
-When cleaning up test suite
+When cleaning up test suite (for instance in RSpec's `config.after(:suite)`)
 
     DynamoLocalRuby::DynamoDBLocal.down
 
