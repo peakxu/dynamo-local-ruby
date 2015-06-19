@@ -1,0 +1,7 @@
+# This is the configuration used to check the rubocop source code.
+
+Style/Encoding:
+  Enabled: true
+
+Style/FileName:
+  Enabled: false
