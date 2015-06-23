@@ -2,5 +2,5 @@
 
 # Dynamo local ruby namespace
 module DynamoLocalRuby
-  VERSION = '0.1.1'
+  VERSION = '0.2.3'
 end
