@@ -24,9 +24,9 @@ In your application code, initialize Dynamo clients with
 
     Aws::DynamoDB::Client.new(endpoint: DynamoLocalRuby::DynamoDBLocal::ENDPOINT)
 
-Before the test suite starts (for instance in RSpec's `config.before(:suite)`). Where `<build directory>` is accessible path in your project's path for build process artifacts.
+Before the test suite starts (for instance in RSpec's `config.before(:suite)`).
 
-    DynamoLocalRuby::DynamoDBLocal.up(<build_directory>)
+    DynamoLocalRuby::DynamoDBLocal.up
 
 When cleaning up test suite (for instance in RSpec's `config.after(:suite)`)
 
